@@ -33,5 +33,15 @@ int main(int argc, char** argv) {
     puts("x is less than 11 or greater than 99!");
   }
 
+  int i = 10;
+  while(i > 0) {
+    puts("Loop Iteration");
+    i = i - 1;
+  }
+
+  for(int i = 0; i < 10; i++) {
+    puts("Loop Iteration");
+  }
+
   return 0;
 }
