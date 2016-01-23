@@ -23,11 +23,11 @@ Code from <strong>Build Your Own Lisp</strong> book.
   <li>To run: ./hello_world</li>
 </ul>
 
-<h3>prompt.c</h3>
+<h3>prompt.c && prompt_all.c</h3>
 <ul>
-  <li>To compile: cc -std=c99 -Wall prompt.c -ledit -o prompt
+  <li>To compile: cc -std=c99 -Wall file_name.c -ledit -o file_name
   </li>
-  <li>To run: ./hello_world</li>
+  <li>To run: ./file_name</li>
 </ul>
 
 <h2>Resources</h2>
